@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 배경 그라데이션 -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:angle="135"
+                android:startColor="#424242"
+                android:centerColor="#616161"
+                android:endColor="#757575"
+                android:type="linear" />
+        </shape>
+    </item>
+    <!-- 테두리 -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="2dp"
+                android:color="#9E9E9E" />
+        </shape>
+    </item>
+    <!-- 중앙 아이콘 -->
+    <item
+        android:drawable="@drawable/ic_default_profile"
+        android:gravity="center"
+        android:width="40dp"
+        android:height="40dp" />
+</layer-list>
+

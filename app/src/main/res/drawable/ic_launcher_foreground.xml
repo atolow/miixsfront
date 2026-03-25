@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Miixs 로고 - 모던하고 세련된 M+X 조합 디자인 -->
+    <group
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateX="10.8"
+        android:translateY="10.8">
+        
+        <!-- M 글자 - 굵고 현대적인 스타일 -->
+        <!-- M 왼쪽 세로선 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M26,22 L32,22 L32,78 L26,78 Z" />
+        <!-- M 중앙 V자 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M32,22 L46,50 L46,22 L52,22 L52,78 L46,78 L46,56 L32,78 L26,78 L26,22 Z" />
+        <!-- M 오른쪽 세로선 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M52,22 L58,22 L58,78 L52,78 Z" />
+        
+        <!-- X 스타일 장식 - M과 조화롭게 -->
+        <!-- X 왼쪽 상단에서 오른쪽 하단으로 -->
+        <path
+            android:fillColor="#E3F2FD"
+            android:fillAlpha="0.95"
+            android:pathData="M64,22 L70,22 L78,34 L78,22 L84,22 L84,50 L78,42 L70,58 L64,58 L72,42 L72,34 Z" />
+        <!-- X 오른쪽 상단에서 왼쪽 하단으로 -->
+        <path
+            android:fillColor="#E3F2FD"
+            android:fillAlpha="0.95"
+            android:pathData="M84,22 L90,22 L90,58 L84,58 L84,42 L76,58 L70,58 L78,42 L78,34 L70,22 Z" />
+        
+        <!-- 하단 장식 점들 - "iixs" 상징 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.6"
+            android:pathData="M32,82 A3,3 0 1,1 32,88 A3,3 0 1,1 32,82 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.6"
+            android:pathData="M42,82 A3,3 0 1,1 42,88 A3,3 0 1,1 42,82 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.6"
+            android:pathData="M52,82 A3,3 0 1,1 52,88 A3,3 0 1,1 52,82 Z" />
+    </group>
+</vector>

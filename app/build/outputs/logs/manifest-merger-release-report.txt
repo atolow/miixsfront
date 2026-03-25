@@ -1,0 +1,810 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:29:9-37:20
+	android:grantUriPermissions
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:33:13-47
+	android:authorities
+		INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:31:13-64
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:30:13-62
+manifest
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:2:1-169:12
+MERGED from [androidx.databinding:databinding-adapters:8.6.1] C:\Users\atolo\.gradle\caches\transforms-4\36b736f247dbf7f6f9cef37828d7fe64\transformed\databinding-adapters-8.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:databinding-ktx:8.6.1] C:\Users\atolo\.gradle\caches\transforms-4\d3b040c7ff8648011ae6ff739621a2c6\transformed\databinding-ktx-8.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:databinding-runtime:8.6.1] C:\Users\atolo\.gradle\caches\transforms-4\dc2a4a90c48f3e6bd2c34b0ea3509bf1\transformed\databinding-runtime-8.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:viewbinding:8.6.1] C:\Users\atolo\.gradle\caches\transforms-4\97cd93805077c0eb6765dc36c107dcd0\transformed\viewbinding-8.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\3000117269d8d993949124cb67491ce9\transformed\navigation-common-2.7.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\705918e2dac9321ee32b09a3e8bba5b2\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\95478ca93b75c02ac00b44241e43b13c\transformed\navigation-runtime-2.7.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\b11f0cb4c96523f8cbb42d43ac359951\transformed\navigation-runtime-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\4514c968b6b2da1f54a48ac92f88b210\transformed\navigation-fragment-2.7.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\504333103b797744b5a35b7c37ca8ca6\transformed\navigation-fragment-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\78784e7ae4fbfd0f1056579ed08173b8\transformed\navigation-ui-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\e06f9e9e686b97c624f8b8f577129144\transformed\navigation-ui-2.7.6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\atolo\.gradle\caches\transforms-4\6907278ed49d6a99439dc5a65e7a0cef\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\atolo\.gradle\caches\transforms-4\2d0a65affae772ea069012f9268f761c\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\atolo\.gradle\caches\transforms-4\274edf301d4c808754304b841fa54d3b\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\atolo\.gradle\caches\transforms-4\8b13969e5de77c321fdd00dbe36f9c3d\transformed\preference-ktx-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\atolo\.gradle\caches\transforms-4\e45312eebc7de1d5bf68089e398b383a\transformed\preference-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\atolo\.gradle\caches\transforms-4\1d6174300eb19c725b2ec585908a1bcb\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\atolo\.gradle\caches\transforms-4\654849fa736ad90ab76d4030054c499a\transformed\glide-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\atolo\.gradle\caches\transforms-4\ed3cccc94f9515e4bde20670a659dd1f\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\atolo\.gradle\caches\transforms-4\fde89facf1f8bedace22e9fcd3f3cb2b\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.billingclient:billing-ktx:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\6d112dbf23d2c526b59c4f9f57ee26be\transformed\billing-ktx-8.3.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:2:1-38:12
+MERGED from [com.google.android.gms:play-services-location:19.0.0] C:\Users\atolo\.gradle\caches\transforms-4\5d19db2e78d9fccabd65b159147fa687\transformed\play-services-location-19.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\atolo\.gradle\caches\transforms-4\368ea3e2784a91cce83ba083e7dcf960\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\atolo\.gradle\caches\transforms-4\19e6f99a485d01511174c648ae83696b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\atolo\.gradle\caches\transforms-4\d03b22f1e4307d53501b4735ffcaf92a\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\atolo\.gradle\caches\transforms-4\77e8774e87754482daa164095da8b14e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\atolo\.gradle\caches\transforms-4\0611ba8295e15cc8ac8d251814aa4b08\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\atolo\.gradle\caches\transforms-4\ce8325875dff7b544c410eb50d6fb22a\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\atolo\.gradle\caches\transforms-4\71b8782f141f3589be08396bd6a90e5d\transformed\activity-1.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\atolo\.gradle\caches\transforms-4\e1de7d0d5456a57f00d15675b982ddc6\transformed\activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\521446b308d9a177cd47a4996ae11633\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\atolo\.gradle\caches\transforms-4\0f5ef6167adf9825348bffb9a5f42cda\transformed\browser-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\f002ee3206ae5aa715ade6cf712c31c8\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\d40091c4cf67998d81e224a516a358b2\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\e378551d818e29a12f578f9fa1e2b1d9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\2fbd8b40fc592910f1f26265857aee8e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\18be1291df7708cfea46f50c7c32a590\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\b9b581a7d3ce17e6100b507ab3c8d737\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\9744b3129efedf37b9634a28107b6d86\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\39552b16ebfa2df497ea16247859ac6a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\4e64421e67bfa51c64e6a4ea50e98384\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\ca62f6461c3bd06078ed4519f1da1b6f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\1c59e5be6a7859f9a6fba0fda9994fac\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\atolo\.gradle\caches\transforms-4\41328d74237d082c137bb17df0a770ea\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\5dc363a77680fb363fe808cee80546cf\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\82e8c0b0aec76a8c8088eb0325ae2702\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\atolo\.gradle\caches\transforms-4\778190703d9bc7d20e7eb31c7965ce0e\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\atolo\.gradle\caches\transforms-4\fb6380ed449fb8339701937be78cfdc4\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\dbaf8b7c78af2328ac536dcd35780d0a\transformed\lifecycle-service-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\30e856c0315a7d890e66c0331db91f21\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7566e6ced24135f2e0487c4e8d4b4779\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\713f25f7d1bc1826d5885427cb489f9e\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\ca84c5b12071be8df1e27dfb40f923bc\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\bf90568f1e9b8ed707a304e74557987d\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\d6e378d2cd2eecb7e443b6a062a16e89\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7a88a0e29edee46c64cd30dd77d52100\transformed\lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\aac0a47351424921942526d248298059\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7f1c8cf78f41b4771aca70356c04d58b\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\24e74e1b1f80aa3d7d9d674444c7ba0b\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.NaikSoftware:StompProtocolAndroid:1.6.6] C:\Users\atolo\.gradle\caches\transforms-4\0e590795480544eec43b4006c43c9476\transformed\StompProtocolAndroid-1.6.6\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\atolo\.gradle\caches\transforms-4\32bcf4d2c20ad8b308ac828eb7b353c7\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\30dbf3e3c545818aa955b532ab38af30\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\a3dea9bf6705782299b44b6b1999b5e6\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\atolo\.gradle\caches\transforms-4\9a8f944ed696d5c59deb18fd76bc0c63\transformed\gifdecoder-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\atolo\.gradle\caches\transforms-4\28f9d0bf8e04fe6993adfe5d88c434ad\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\c576e3d6182a8d3a7887451a29b4e09f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\2c7b7ccbb4da10ab2a06bae9d25c0a53\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\397197c3f0dbf9c3e69181dd75e7a5ba\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\abad66282f23e499111b586bcfae81ea\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\atolo\.gradle\caches\transforms-4\58f0aacbfee84dc87394a0487a83dbe2\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\atolo\.gradle\caches\transforms-4\bbbdc364892a2272145a378c3e4823dc\transformed\transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\0cd54254f1500f97d49cb7251bafb2b1\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\9a3a3bc26acb32c9d9865644cd48e69a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\302885e2af07d9c36641fe026f8fbcfe\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\atolo\.gradle\caches\transforms-4\b1e6e426722c687c28114020f8f5b3b2\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\atolo\.gradle\caches\transforms-4\b540ccf9b1519a807835dbcb5e2e7156\transformed\rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
+	package
+		INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:8:5-9:38
+	android:maxSdkVersion
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:9:9-35
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:11:22-62
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:12:5-77
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:12:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:13:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_DATA_SYNC
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:14:5-87
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:14:22-84
+application
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:16:5-167:19
+INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:16:5-167:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\atolo\.gradle\caches\transforms-4\6907278ed49d6a99439dc5a65e7a0cef\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\atolo\.gradle\caches\transforms-4\6907278ed49d6a99439dc5a65e7a0cef\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\atolo\.gradle\caches\transforms-4\2d0a65affae772ea069012f9268f761c\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\atolo\.gradle\caches\transforms-4\2d0a65affae772ea069012f9268f761c\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:21:5-36:19
+MERGED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:21:5-36:19
+MERGED from [com.google.android.gms:play-services-location:19.0.0] C:\Users\atolo\.gradle\caches\transforms-4\5d19db2e78d9fccabd65b159147fa687\transformed\play-services-location-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:19.0.0] C:\Users\atolo\.gradle\caches\transforms-4\5d19db2e78d9fccabd65b159147fa687\transformed\play-services-location-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\atolo\.gradle\caches\transforms-4\368ea3e2784a91cce83ba083e7dcf960\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\atolo\.gradle\caches\transforms-4\368ea3e2784a91cce83ba083e7dcf960\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\atolo\.gradle\caches\transforms-4\19e6f99a485d01511174c648ae83696b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\atolo\.gradle\caches\transforms-4\19e6f99a485d01511174c648ae83696b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\atolo\.gradle\caches\transforms-4\d03b22f1e4307d53501b4735ffcaf92a\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\atolo\.gradle\caches\transforms-4\d03b22f1e4307d53501b4735ffcaf92a\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\atolo\.gradle\caches\transforms-4\77e8774e87754482daa164095da8b14e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\atolo\.gradle\caches\transforms-4\77e8774e87754482daa164095da8b14e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7566e6ced24135f2e0487c4e8d4b4779\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7566e6ced24135f2e0487c4e8d4b4779\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [com.github.NaikSoftware:StompProtocolAndroid:1.6.6] C:\Users\atolo\.gradle\caches\transforms-4\0e590795480544eec43b4006c43c9476\transformed\StompProtocolAndroid-1.6.6\AndroidManifest.xml:11:5-20
+MERGED from [com.github.NaikSoftware:StompProtocolAndroid:1.6.6] C:\Users\atolo\.gradle\caches\transforms-4\0e590795480544eec43b4006c43c9476\transformed\StompProtocolAndroid-1.6.6\AndroidManifest.xml:11:5-20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\c576e3d6182a8d3a7887451a29b4e09f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\c576e3d6182a8d3a7887451a29b4e09f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\abad66282f23e499111b586bcfae81ea\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\abad66282f23e499111b586bcfae81ea\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:25:5-39:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:22:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:20:9-54
+	android:roundIcon
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:23:9-54
+	tools:targetApi
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:27:9-29
+	android:icon
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:21:9-43
+	android:allowBackup
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:25:9-43
+	android:dataExtractionRules
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:19:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:17:9-41
+activity#com.atolow.miixs.ui.splash.SplashActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:39:9-47:20
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:41:13-36
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:42:13-54
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:40:13-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:43:13-46:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:45:27-74
+activity#com.atolow.miixs.ui.main.MainActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:49:9-53:58
+	android:windowSoftInputMode
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:53:13-55
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:51:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:52:13-47
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:50:13-49
+activity#com.atolow.miixs.ui.auth.LoginActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:55:9-67:20
+	android:launchMode
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:60:13-43
+	android:windowSoftInputMode
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:59:13-55
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:57:13-36
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:58:13-47
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:56:13-50
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:miixs.com+data:pathPrefix:/oauth+data:scheme:https
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:61:13-66:29
+	android:autoVerify
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:61:28-53
+action#android.intent.action.VIEW
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:62:17-69
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:62:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:63:17-76
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:63:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:64:17-78
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:64:27-75
+data
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:65:17-101
+	android:host
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:65:46-70
+	android:scheme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:65:23-45
+	android:pathPrefix
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:65:71-98
+activity#com.atolow.miixs.ui.auth.FindPasswordActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:69:9-74:58
+	android:parentActivityName
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:73:13-63
+	android:windowSoftInputMode
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:74:13-55
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:71:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:72:13-59
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:70:13-57
+activity#com.atolow.miixs.ui.auth.OAuthAdditionalInfoActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:76:9-80:58
+	android:windowSoftInputMode
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:80:13-55
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:78:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:79:13-47
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:77:13-64
+activity#com.atolow.miixs.ui.profile.TermsOfServiceActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:82:9-86:66
+	android:parentActivityName
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:86:13-63
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:84:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:85:13-59
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:83:13-62
+activity#com.atolow.miixs.ui.profile.PrivacyPolicyActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:88:9-92:66
+	android:parentActivityName
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:92:13-63
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:90:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:91:13-59
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:89:13-61
+activity#com.atolow.miixs.ui.profile.ChildSafetyActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:94:9-98:66
+	android:parentActivityName
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:98:13-63
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:96:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:97:13-59
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:95:13-59
+activity#com.atolow.miixs.ui.chat.ChatRoomActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:100:9-103:62
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:102:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:103:13-59
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:101:13-53
+activity#com.atolow.miixs.ui.chat.ImageUploadActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:105:9-109:70
+	android:parentActivityName
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:109:13-67
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:107:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:108:13-59
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:106:13-56
+activity#com.atolow.miixs.ui.post.PostDetailActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:111:9-114:62
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:113:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:114:13-59
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:112:13-55
+activity#com.atolow.miixs.ui.post.CreatePostActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:116:9-120:58
+	android:windowSoftInputMode
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:120:13-55
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:118:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:119:13-59
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:117:13-55
+activity#com.atolow.miixs.ui.profile.BlockedUsersActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:122:9-126:66
+	android:parentActivityName
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:126:13-63
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:124:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:125:13-59
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:123:13-60
+activity#com.atolow.miixs.ui.profile.ProfileEditActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:128:9-133:58
+	android:parentActivityName
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:132:13-63
+	android:windowSoftInputMode
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:133:13-55
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:130:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:131:13-47
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:129:13-59
+activity#com.atolow.miixs.ui.profile.UserProfileActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:135:9-139:66
+	android:parentActivityName
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:139:13-63
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:137:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:138:13-59
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:136:13-59
+activity#com.atolow.miixs.ui.payment.PaymentActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:141:9-153:20
+	android:parentActivityName
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:145:13-63
+	android:launchMode
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:146:13-43
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:143:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:144:13-59
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:142:13-55
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:payment+data:scheme:miixs
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:147:13-152:29
+activity#com.atolow.miixs.ui.payment.PaymentHistoryActivity
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:155:9-159:66
+	android:parentActivityName
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:159:13-63
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:157:13-37
+	android:theme
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:158:13-59
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:156:13-62
+service#com.atolow.miixs.service.ChatNotificationService
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:161:9-165:56
+	android:enabled
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:163:13-35
+	android:exported
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:164:13-37
+	android:foregroundServiceType
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:165:13-53
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:162:13-60
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:34:13-36:63
+	android:resource
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:36:17-60
+	android:name
+		ADDED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:35:17-67
+uses-sdk
+INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:8.6.1] C:\Users\atolo\.gradle\caches\transforms-4\36b736f247dbf7f6f9cef37828d7fe64\transformed\databinding-adapters-8.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-adapters:8.6.1] C:\Users\atolo\.gradle\caches\transforms-4\36b736f247dbf7f6f9cef37828d7fe64\transformed\databinding-adapters-8.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-ktx:8.6.1] C:\Users\atolo\.gradle\caches\transforms-4\d3b040c7ff8648011ae6ff739621a2c6\transformed\databinding-ktx-8.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-ktx:8.6.1] C:\Users\atolo\.gradle\caches\transforms-4\d3b040c7ff8648011ae6ff739621a2c6\transformed\databinding-ktx-8.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.6.1] C:\Users\atolo\.gradle\caches\transforms-4\dc2a4a90c48f3e6bd2c34b0ea3509bf1\transformed\databinding-runtime-8.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.6.1] C:\Users\atolo\.gradle\caches\transforms-4\dc2a4a90c48f3e6bd2c34b0ea3509bf1\transformed\databinding-runtime-8.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.6.1] C:\Users\atolo\.gradle\caches\transforms-4\97cd93805077c0eb6765dc36c107dcd0\transformed\viewbinding-8.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.6.1] C:\Users\atolo\.gradle\caches\transforms-4\97cd93805077c0eb6765dc36c107dcd0\transformed\viewbinding-8.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\3000117269d8d993949124cb67491ce9\transformed\navigation-common-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\3000117269d8d993949124cb67491ce9\transformed\navigation-common-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\705918e2dac9321ee32b09a3e8bba5b2\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\705918e2dac9321ee32b09a3e8bba5b2\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\95478ca93b75c02ac00b44241e43b13c\transformed\navigation-runtime-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\95478ca93b75c02ac00b44241e43b13c\transformed\navigation-runtime-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\b11f0cb4c96523f8cbb42d43ac359951\transformed\navigation-runtime-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\b11f0cb4c96523f8cbb42d43ac359951\transformed\navigation-runtime-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\4514c968b6b2da1f54a48ac92f88b210\transformed\navigation-fragment-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\4514c968b6b2da1f54a48ac92f88b210\transformed\navigation-fragment-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\504333103b797744b5a35b7c37ca8ca6\transformed\navigation-fragment-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\504333103b797744b5a35b7c37ca8ca6\transformed\navigation-fragment-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\78784e7ae4fbfd0f1056579ed08173b8\transformed\navigation-ui-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\78784e7ae4fbfd0f1056579ed08173b8\transformed\navigation-ui-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\e06f9e9e686b97c624f8b8f577129144\transformed\navigation-ui-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.6] C:\Users\atolo\.gradle\caches\transforms-4\e06f9e9e686b97c624f8b8f577129144\transformed\navigation-ui-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\atolo\.gradle\caches\transforms-4\6907278ed49d6a99439dc5a65e7a0cef\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\atolo\.gradle\caches\transforms-4\6907278ed49d6a99439dc5a65e7a0cef\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\atolo\.gradle\caches\transforms-4\2d0a65affae772ea069012f9268f761c\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\atolo\.gradle\caches\transforms-4\2d0a65affae772ea069012f9268f761c\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\atolo\.gradle\caches\transforms-4\274edf301d4c808754304b841fa54d3b\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\atolo\.gradle\caches\transforms-4\274edf301d4c808754304b841fa54d3b\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\atolo\.gradle\caches\transforms-4\8b13969e5de77c321fdd00dbe36f9c3d\transformed\preference-ktx-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\atolo\.gradle\caches\transforms-4\8b13969e5de77c321fdd00dbe36f9c3d\transformed\preference-ktx-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\atolo\.gradle\caches\transforms-4\e45312eebc7de1d5bf68089e398b383a\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\atolo\.gradle\caches\transforms-4\e45312eebc7de1d5bf68089e398b383a\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\atolo\.gradle\caches\transforms-4\1d6174300eb19c725b2ec585908a1bcb\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\atolo\.gradle\caches\transforms-4\1d6174300eb19c725b2ec585908a1bcb\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\atolo\.gradle\caches\transforms-4\654849fa736ad90ab76d4030054c499a\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\atolo\.gradle\caches\transforms-4\654849fa736ad90ab76d4030054c499a\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\atolo\.gradle\caches\transforms-4\ed3cccc94f9515e4bde20670a659dd1f\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\atolo\.gradle\caches\transforms-4\ed3cccc94f9515e4bde20670a659dd1f\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\atolo\.gradle\caches\transforms-4\fde89facf1f8bedace22e9fcd3f3cb2b\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\atolo\.gradle\caches\transforms-4\fde89facf1f8bedace22e9fcd3f3cb2b\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [com.android.billingclient:billing-ktx:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\6d112dbf23d2c526b59c4f9f57ee26be\transformed\billing-ktx-8.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.billingclient:billing-ktx:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\6d112dbf23d2c526b59c4f9f57ee26be\transformed\billing-ktx-8.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-location:19.0.0] C:\Users\atolo\.gradle\caches\transforms-4\5d19db2e78d9fccabd65b159147fa687\transformed\play-services-location-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:19.0.0] C:\Users\atolo\.gradle\caches\transforms-4\5d19db2e78d9fccabd65b159147fa687\transformed\play-services-location-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\atolo\.gradle\caches\transforms-4\368ea3e2784a91cce83ba083e7dcf960\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\atolo\.gradle\caches\transforms-4\368ea3e2784a91cce83ba083e7dcf960\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\atolo\.gradle\caches\transforms-4\19e6f99a485d01511174c648ae83696b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\atolo\.gradle\caches\transforms-4\19e6f99a485d01511174c648ae83696b\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\atolo\.gradle\caches\transforms-4\d03b22f1e4307d53501b4735ffcaf92a\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\atolo\.gradle\caches\transforms-4\d03b22f1e4307d53501b4735ffcaf92a\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\atolo\.gradle\caches\transforms-4\77e8774e87754482daa164095da8b14e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\atolo\.gradle\caches\transforms-4\77e8774e87754482daa164095da8b14e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\atolo\.gradle\caches\transforms-4\0611ba8295e15cc8ac8d251814aa4b08\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\atolo\.gradle\caches\transforms-4\0611ba8295e15cc8ac8d251814aa4b08\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\atolo\.gradle\caches\transforms-4\ce8325875dff7b544c410eb50d6fb22a\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\atolo\.gradle\caches\transforms-4\ce8325875dff7b544c410eb50d6fb22a\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\atolo\.gradle\caches\transforms-4\71b8782f141f3589be08396bd6a90e5d\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\atolo\.gradle\caches\transforms-4\71b8782f141f3589be08396bd6a90e5d\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\atolo\.gradle\caches\transforms-4\e1de7d0d5456a57f00d15675b982ddc6\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\atolo\.gradle\caches\transforms-4\e1de7d0d5456a57f00d15675b982ddc6\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\521446b308d9a177cd47a4996ae11633\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\521446b308d9a177cd47a4996ae11633\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\atolo\.gradle\caches\transforms-4\0f5ef6167adf9825348bffb9a5f42cda\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\atolo\.gradle\caches\transforms-4\0f5ef6167adf9825348bffb9a5f42cda\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\f002ee3206ae5aa715ade6cf712c31c8\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\f002ee3206ae5aa715ade6cf712c31c8\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\d40091c4cf67998d81e224a516a358b2\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\d40091c4cf67998d81e224a516a358b2\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\e378551d818e29a12f578f9fa1e2b1d9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\e378551d818e29a12f578f9fa1e2b1d9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\2fbd8b40fc592910f1f26265857aee8e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\2fbd8b40fc592910f1f26265857aee8e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\18be1291df7708cfea46f50c7c32a590\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\18be1291df7708cfea46f50c7c32a590\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\b9b581a7d3ce17e6100b507ab3c8d737\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\b9b581a7d3ce17e6100b507ab3c8d737\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\9744b3129efedf37b9634a28107b6d86\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\9744b3129efedf37b9634a28107b6d86\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\39552b16ebfa2df497ea16247859ac6a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\39552b16ebfa2df497ea16247859ac6a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\4e64421e67bfa51c64e6a4ea50e98384\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\atolo\.gradle\caches\transforms-4\4e64421e67bfa51c64e6a4ea50e98384\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\ca62f6461c3bd06078ed4519f1da1b6f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\ca62f6461c3bd06078ed4519f1da1b6f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\1c59e5be6a7859f9a6fba0fda9994fac\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\1c59e5be6a7859f9a6fba0fda9994fac\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\atolo\.gradle\caches\transforms-4\41328d74237d082c137bb17df0a770ea\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\atolo\.gradle\caches\transforms-4\41328d74237d082c137bb17df0a770ea\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\5dc363a77680fb363fe808cee80546cf\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\5dc363a77680fb363fe808cee80546cf\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\82e8c0b0aec76a8c8088eb0325ae2702\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\82e8c0b0aec76a8c8088eb0325ae2702\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\atolo\.gradle\caches\transforms-4\778190703d9bc7d20e7eb31c7965ce0e\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\atolo\.gradle\caches\transforms-4\778190703d9bc7d20e7eb31c7965ce0e\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\atolo\.gradle\caches\transforms-4\fb6380ed449fb8339701937be78cfdc4\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\atolo\.gradle\caches\transforms-4\fb6380ed449fb8339701937be78cfdc4\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\dbaf8b7c78af2328ac536dcd35780d0a\transformed\lifecycle-service-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\dbaf8b7c78af2328ac536dcd35780d0a\transformed\lifecycle-service-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\30e856c0315a7d890e66c0331db91f21\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\30e856c0315a7d890e66c0331db91f21\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7566e6ced24135f2e0487c4e8d4b4779\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7566e6ced24135f2e0487c4e8d4b4779\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\713f25f7d1bc1826d5885427cb489f9e\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\713f25f7d1bc1826d5885427cb489f9e\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\ca84c5b12071be8df1e27dfb40f923bc\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\ca84c5b12071be8df1e27dfb40f923bc\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\bf90568f1e9b8ed707a304e74557987d\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\bf90568f1e9b8ed707a304e74557987d\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\d6e378d2cd2eecb7e443b6a062a16e89\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\d6e378d2cd2eecb7e443b6a062a16e89\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7a88a0e29edee46c64cd30dd77d52100\transformed\lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7a88a0e29edee46c64cd30dd77d52100\transformed\lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\aac0a47351424921942526d248298059\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\aac0a47351424921942526d248298059\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7f1c8cf78f41b4771aca70356c04d58b\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7f1c8cf78f41b4771aca70356c04d58b\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\24e74e1b1f80aa3d7d9d674444c7ba0b\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\24e74e1b1f80aa3d7d9d674444c7ba0b\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [com.github.NaikSoftware:StompProtocolAndroid:1.6.6] C:\Users\atolo\.gradle\caches\transforms-4\0e590795480544eec43b4006c43c9476\transformed\StompProtocolAndroid-1.6.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.NaikSoftware:StompProtocolAndroid:1.6.6] C:\Users\atolo\.gradle\caches\transforms-4\0e590795480544eec43b4006c43c9476\transformed\StompProtocolAndroid-1.6.6\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\atolo\.gradle\caches\transforms-4\32bcf4d2c20ad8b308ac828eb7b353c7\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\atolo\.gradle\caches\transforms-4\32bcf4d2c20ad8b308ac828eb7b353c7\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\30dbf3e3c545818aa955b532ab38af30\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\30dbf3e3c545818aa955b532ab38af30\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\a3dea9bf6705782299b44b6b1999b5e6\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\a3dea9bf6705782299b44b6b1999b5e6\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\atolo\.gradle\caches\transforms-4\9a8f944ed696d5c59deb18fd76bc0c63\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\atolo\.gradle\caches\transforms-4\9a8f944ed696d5c59deb18fd76bc0c63\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\atolo\.gradle\caches\transforms-4\28f9d0bf8e04fe6993adfe5d88c434ad\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\atolo\.gradle\caches\transforms-4\28f9d0bf8e04fe6993adfe5d88c434ad\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\c576e3d6182a8d3a7887451a29b4e09f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\c576e3d6182a8d3a7887451a29b4e09f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\2c7b7ccbb4da10ab2a06bae9d25c0a53\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\2c7b7ccbb4da10ab2a06bae9d25c0a53\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\397197c3f0dbf9c3e69181dd75e7a5ba\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\397197c3f0dbf9c3e69181dd75e7a5ba\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\abad66282f23e499111b586bcfae81ea\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\abad66282f23e499111b586bcfae81ea\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\atolo\.gradle\caches\transforms-4\58f0aacbfee84dc87394a0487a83dbe2\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\atolo\.gradle\caches\transforms-4\58f0aacbfee84dc87394a0487a83dbe2\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\atolo\.gradle\caches\transforms-4\bbbdc364892a2272145a378c3e4823dc\transformed\transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\atolo\.gradle\caches\transforms-4\bbbdc364892a2272145a378c3e4823dc\transformed\transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\0cd54254f1500f97d49cb7251bafb2b1\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\0cd54254f1500f97d49cb7251bafb2b1\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\9a3a3bc26acb32c9d9865644cd48e69a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\9a3a3bc26acb32c9d9865644cd48e69a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\302885e2af07d9c36641fe026f8fbcfe\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\302885e2af07d9c36641fe026f8fbcfe\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\atolo\.gradle\caches\transforms-4\b1e6e426722c687c28114020f8f5b3b2\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\atolo\.gradle\caches\transforms-4\b1e6e426722c687c28114020f8f5b3b2\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\atolo\.gradle\caches\transforms-4\b540ccf9b1519a807835dbcb5e2e7156\transformed\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\atolo\.gradle\caches\transforms-4\b540ccf9b1519a807835dbcb5e2e7156\transformed\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml
+uses-permission#com.android.vending.BILLING
+ADDED from [com.android.billingclient:billing-ktx:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\6d112dbf23d2c526b59c4f9f57ee26be\transformed\billing-ktx-8.3.0\AndroidManifest.xml:9:5-67
+MERGED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:10:5-67
+MERGED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [com.android.billingclient:billing-ktx:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\6d112dbf23d2c526b59c4f9f57ee26be\transformed\billing-ktx-8.3.0\AndroidManifest.xml:9:22-64
+queries
+ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:12:5-19:15
+intent#action:name:com.android.vending.billing.InAppBillingService.BIND
+ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:13:9-15:18
+action#com.android.vending.billing.InAppBillingService.BIND
+ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:14:13-91
+	android:name
+		ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:14:21-88
+intent#action:name:com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND
+ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:16:9-18:18
+action#com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND
+ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:17:13-116
+	android:name
+		ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:17:21-113
+meta-data#com.google.android.play.billingclient.version
+ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:22:9-24:37
+	android:value
+		ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:24:13-34
+	android:name
+		ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:23:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:26:9-30:75
+	android:exported
+		ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:29:13-37
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:28:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:30:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:27:13-78
+activity#com.android.billingclient.api.ProxyBillingActivityV2
+ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:31:9-35:75
+	android:exported
+		ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:34:13-37
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:33:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:35:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:32:13-80
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\atolo\.gradle\caches\transforms-4\368ea3e2784a91cce83ba083e7dcf960\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\atolo\.gradle\caches\transforms-4\368ea3e2784a91cce83ba083e7dcf960\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\atolo\.gradle\caches\transforms-4\368ea3e2784a91cce83ba083e7dcf960\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\atolo\.gradle\caches\transforms-4\368ea3e2784a91cce83ba083e7dcf960\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\atolo\.gradle\caches\transforms-4\77e8774e87754482daa164095da8b14e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\atolo\.gradle\caches\transforms-4\77e8774e87754482daa164095da8b14e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\atolo\.gradle\caches\transforms-4\77e8774e87754482daa164095da8b14e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7566e6ced24135f2e0487c4e8d4b4779\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7566e6ced24135f2e0487c4e8d4b4779\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\c576e3d6182a8d3a7887451a29b4e09f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\atolo\.gradle\caches\transforms-4\c576e3d6182a8d3a7887451a29b4e09f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.atolow.miixs.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.atolow.miixs.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7566e6ced24135f2e0487c4e8d4b4779\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7566e6ced24135f2e0487c4e8d4b4779\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7566e6ced24135f2e0487c4e8d4b4779\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132

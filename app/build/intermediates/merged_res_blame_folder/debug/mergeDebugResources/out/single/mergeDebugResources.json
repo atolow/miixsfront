@@ -1,0 +1,306 @@
+[
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_bg_profile_circle_dark.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\bg_profile_circle_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_bg_status_complete.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\bg_status_complete.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_emoji.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_emoji.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_oauth_additional_info.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_oauth_additional_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_user.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\menu_bottom_navigation.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\menu\\bottom_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_filter_option.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_filter_option.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_bg_info_tag.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\bg_info_tag.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_message_date.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_message_date.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_transparent.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_transparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_fragment_post.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\fragment_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_payment_history.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_payment_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_post_detail.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_post_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_chat.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_bg_status_pending.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\bg_status_pending.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_child_safety.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_child_safety.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_logo_miixs_white.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_logo_miixs_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\xml_file_provider_paths.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\xml\\file_provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_post.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_product.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_dialog_create_post.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\dialog_create_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_contact.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_heart_outline.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_heart_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_dashboard.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_bg_unread_count.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\bg_unread_count.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_payment_history.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_payment_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_post.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_bg_profile_image.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\bg_profile_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_find_password.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_find_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_image_upload.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_image_upload.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_dialog_loading.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\dialog_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_blocked_users.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_blocked_users.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_terms_of_service.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_terms_of_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_heart_filled.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_heart_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_message_sent.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_message_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_bottom_sheet_filter.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\bottom_sheet_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_default_profile.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_default_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_blocked_user.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_blocked_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_profile_edit.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_profile_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_bg_message_received.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\bg_message_received.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\menu_menu_post_detail.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\menu\\menu_post_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_fragment_chat_list.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\fragment_chat_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_bg_profile_circle.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\bg_profile_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_message_system.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_message_system.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_exit_chat.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_exit_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_privacy_policy.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_privacy_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_chat_room.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_chat_room.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_ic_logo_miixs.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\ic_logo_miixs.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_create_post.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_create_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_chat_room_favorite.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_chat_room_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_chat_room.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_chat_room.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_bg_unread_count_dark.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\bg_unread_count_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_chat_section_header.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_chat_section_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_payment.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_user_profile.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_bg_status_failed.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\bg_status_failed.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_chat_room_list.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_chat_room_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_message_received.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_message_received.xml"
+    },
+    {
+        "merged": "com.atolow.miixs.app-debug-61:/layout_fragment_post.xml.flat",
+        "source": "com.atolow.miixs.app-main-63:/layout/fragment_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\drawable_bg_message_sent.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\drawable\\bg_message_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "com.atolow.miixs.app-debug-61:/layout_fragment_home.xml.flat",
+        "source": "com.atolow.miixs.app-main-63:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-debug-61:\\layout_item_profile_image.xml.flat",
+        "source": "C:\\Users\\atolo\\.gradle\\daemon\\8.7\\com.atolow.miixs.app-main-63:\\layout\\item_profile_image.xml"
+    }
+]

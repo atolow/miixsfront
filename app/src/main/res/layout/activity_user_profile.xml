@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#FFFFFF"
+            app:titleTextColor="#000000"
+            app:navigationIcon="@android:drawable/ic_menu_revert"
+            app:navigationIconTint="#000000">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ivMore"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="8dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:insetLeft="0dp"
+                android:insetRight="0dp"
+                android:padding="0dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:icon="@android:drawable/ic_menu_more"
+                app:iconSize="28dp"
+                app:iconTint="#4A90E2"
+                app:iconGravity="textStart"
+                app:cornerRadius="24dp"
+                app:backgroundTint="#E3F2FD"
+                app:strokeWidth="0dp"
+                android:elevation="2dp"
+                style="@style/Widget.MaterialComponents.Button.Icon" />
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- 프로필 이미지 슬라이더 -->
+            <LinearLayout
+                android:id="@+id/llProfileImageContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"
+                android:background="#F5F5F5">
+
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/viewPagerProfileImages"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:background="@android:color/transparent" />
+
+                <!-- 커스텀 인디케이터 -->
+                <LinearLayout
+                    android:id="@+id/llIndicators"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:padding="8dp"
+                    android:background="#87CEEB"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <!-- 프로필 정보 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- 마지막 로그인 시간 -->
+                <TextView
+                    android:id="@+id/tvLastLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="방금전에 마지막으로 로그인"
+                    android:textSize="12sp"
+                    android:textColor="#999999"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- 이름 -->
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="사용자 이름"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- 지역, 나이, 성별 -->
+                <TextView
+                    android:id="@+id/tvLocationAgeGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="광주, 99살 남자"
+                    android:textSize="14sp"
+                    android:textColor="#666666"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- 자기소개 -->
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp"
+                    app:cardBackgroundColor="#F5F5F5">
+
+                    <TextView
+                        android:id="@+id/tvBio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="아직 자기소개가 없어요"
+                        android:textSize="14sp"
+                        android:textColor="#666666"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:minHeight="60dp" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- 메시지 보내기 버튼 -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSendMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="메세지 보내기"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#4A90E2"
+                    app:cornerRadius="12dp"
+                    app:icon="@android:drawable/ic_dialog_email"
+                    app:iconTint="#FFFFFF"
+                    android:layout_marginBottom="16dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.atolow.miixs.app-mergeDebugResources-59:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\atolo\\.gradle\\caches\\transforms-4\\1d6174300eb19c725b2ec585908a1bcb\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

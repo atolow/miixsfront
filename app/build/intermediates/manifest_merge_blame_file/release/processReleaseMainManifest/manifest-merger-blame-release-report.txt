@@ -1,0 +1,507 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.atolow.miixs"
+4    android:versionCode="39"
+5    android:versionName="1.3.9" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission
+14-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:8:5-9:38
+15        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+15-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:8:22-78
+16        android:maxSdkVersion="28" />
+16-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:9:9-35
+17    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+17-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:10:5-76
+17-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:10:22-73
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:11:5-65
+18-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:11:22-62
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:12:5-77
+19-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:12:22-74
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:13:5-77
+20-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:13:22-74
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+21-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:14:5-87
+21-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:14:22-84
+22    <uses-permission android:name="com.android.vending.BILLING" />
+22-->[com.android.billingclient:billing-ktx:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\6d112dbf23d2c526b59c4f9f57ee26be\transformed\billing-ktx-8.3.0\AndroidManifest.xml:9:5-67
+22-->[com.android.billingclient:billing-ktx:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\6d112dbf23d2c526b59c4f9f57ee26be\transformed\billing-ktx-8.3.0\AndroidManifest.xml:9:22-64
+23
+24    <queries>
+24-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:12:5-19:15
+25        <intent>
+25-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:13:9-15:18
+26            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+26-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:14:13-91
+26-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:14:21-88
+27        </intent>
+28        <intent>
+28-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:16:9-18:18
+29            <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND" />
+29-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:17:13-116
+29-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:17:21-113
+30        </intent>
+31    </queries>
+32
+33    <permission
+33-->[androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+34        android:name="com.atolow.miixs.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.atolow.miixs.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+38
+39    <application
+39-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:16:5-167:19
+40        android:name="com.atolow.miixs.MiixsApplication"
+40-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:17:9-41
+41        android:allowBackup="true"
+41-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:18:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.12.0] C:\Users\atolo\.gradle\caches\transforms-4\f631244c862f018d4730e6e6f906ea9c\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+43        android:dataExtractionRules="@xml/data_extraction_rules"
+43-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:19:9-65
+44        android:extractNativeLibs="false"
+45        android:fullBackupContent="@xml/backup_rules"
+45-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:20:9-54
+46        android:icon="@mipmap/ic_launcher"
+46-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:21:9-43
+47        android:label="@string/app_name"
+47-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:22:9-41
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:23:9-54
+49        android:supportsRtl="true"
+49-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:24:9-35
+50        android:theme="@style/Theme.Miixs"
+50-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:25:9-43
+51        android:usesCleartextTraffic="true" >
+51-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:26:9-44
+52        <provider
+53            android:name="androidx.core.content.FileProvider"
+53-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:30:13-62
+54            android:authorities="com.atolow.miixs.fileprovider"
+54-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:31:13-64
+55            android:exported="false"
+55-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:32:13-37
+56            android:grantUriPermissions="true" >
+56-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:33:13-47
+57            <meta-data
+57-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:34:13-36:63
+58                android:name="android.support.FILE_PROVIDER_PATHS"
+58-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:35:17-67
+59                android:resource="@xml/file_provider_paths" />
+59-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:36:17-60
+60        </provider>
+61
+62        <activity
+62-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:39:9-47:20
+63            android:name="com.atolow.miixs.ui.splash.SplashActivity"
+63-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:40:13-53
+64            android:exported="true"
+64-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:41:13-36
+65            android:theme="@style/Theme.Miixs.Splash" >
+65-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:42:13-54
+66            <intent-filter>
+66-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:43:13-46:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:44:17-69
+67-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:44:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:45:17-77
+69-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:45:27-74
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:49:9-53:58
+73            android:name="com.atolow.miixs.ui.main.MainActivity"
+73-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:50:13-49
+74            android:exported="false"
+74-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:51:13-37
+75            android:theme="@style/Theme.Miixs"
+75-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:52:13-47
+76            android:windowSoftInputMode="adjustResize" />
+76-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:53:13-55
+77        <activity
+77-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:55:9-67:20
+78            android:name="com.atolow.miixs.ui.auth.LoginActivity"
+78-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:56:13-50
+79            android:exported="true"
+79-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:57:13-36
+80            android:launchMode="singleTop"
+80-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:60:13-43
+81            android:theme="@style/Theme.Miixs"
+81-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:58:13-47
+82            android:windowSoftInputMode="adjustResize" >
+82-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:59:13-55
+83            <intent-filter android:autoVerify="true" >
+83-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:61:13-66:29
+83-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:61:28-53
+84                <action android:name="android.intent.action.VIEW" />
+84-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:62:17-69
+84-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:62:25-66
+85
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:63:17-76
+86-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:63:27-73
+87                <category android:name="android.intent.category.BROWSABLE" />
+87-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:64:17-78
+87-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:64:27-75
+88
+89                <data
+89-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:65:17-101
+90                    android:host="miixs.com"
+90-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:65:46-70
+91                    android:pathPrefix="/oauth"
+91-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:65:71-98
+92                    android:scheme="https" />
+92-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:65:23-45
+93            </intent-filter>
+94        </activity>
+95        <activity
+95-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:69:9-74:58
+96            android:name="com.atolow.miixs.ui.auth.FindPasswordActivity"
+96-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:70:13-57
+97            android:exported="false"
+97-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:71:13-37
+98            android:parentActivityName="com.atolow.miixs.ui.main.MainActivity"
+98-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:73:13-63
+99            android:theme="@style/Theme.Miixs.NoActionBar"
+99-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:72:13-59
+100            android:windowSoftInputMode="adjustResize" />
+100-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:74:13-55
+101        <activity
+101-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:76:9-80:58
+102            android:name="com.atolow.miixs.ui.auth.OAuthAdditionalInfoActivity"
+102-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:77:13-64
+103            android:exported="false"
+103-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:78:13-37
+104            android:theme="@style/Theme.Miixs"
+104-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:79:13-47
+105            android:windowSoftInputMode="adjustResize" />
+105-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:80:13-55
+106        <activity
+106-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:82:9-86:66
+107            android:name="com.atolow.miixs.ui.profile.TermsOfServiceActivity"
+107-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:83:13-62
+108            android:exported="false"
+108-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:84:13-37
+109            android:parentActivityName="com.atolow.miixs.ui.main.MainActivity"
+109-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:86:13-63
+110            android:theme="@style/Theme.Miixs.NoActionBar" />
+110-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:85:13-59
+111        <activity
+111-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:88:9-92:66
+112            android:name="com.atolow.miixs.ui.profile.PrivacyPolicyActivity"
+112-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:89:13-61
+113            android:exported="false"
+113-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:90:13-37
+114            android:parentActivityName="com.atolow.miixs.ui.main.MainActivity"
+114-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:92:13-63
+115            android:theme="@style/Theme.Miixs.NoActionBar" />
+115-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:91:13-59
+116        <activity
+116-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:94:9-98:66
+117            android:name="com.atolow.miixs.ui.profile.ChildSafetyActivity"
+117-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:95:13-59
+118            android:exported="false"
+118-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:96:13-37
+119            android:parentActivityName="com.atolow.miixs.ui.main.MainActivity"
+119-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:98:13-63
+120            android:theme="@style/Theme.Miixs.NoActionBar" />
+120-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:97:13-59
+121        <activity
+121-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:100:9-103:62
+122            android:name="com.atolow.miixs.ui.chat.ChatRoomActivity"
+122-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:101:13-53
+123            android:exported="false"
+123-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:102:13-37
+124            android:theme="@style/Theme.Miixs.NoActionBar" />
+124-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:103:13-59
+125        <activity
+125-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:105:9-109:70
+126            android:name="com.atolow.miixs.ui.chat.ImageUploadActivity"
+126-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:106:13-56
+127            android:exported="false"
+127-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:107:13-37
+128            android:parentActivityName="com.atolow.miixs.ui.chat.ChatRoomActivity"
+128-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:109:13-67
+129            android:theme="@style/Theme.Miixs.NoActionBar" />
+129-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:108:13-59
+130        <activity
+130-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:111:9-114:62
+131            android:name="com.atolow.miixs.ui.post.PostDetailActivity"
+131-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:112:13-55
+132            android:exported="false"
+132-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:113:13-37
+133            android:theme="@style/Theme.Miixs.NoActionBar" />
+133-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:114:13-59
+134        <activity
+134-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:116:9-120:58
+135            android:name="com.atolow.miixs.ui.post.CreatePostActivity"
+135-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:117:13-55
+136            android:exported="false"
+136-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:118:13-37
+137            android:theme="@style/Theme.Miixs.NoActionBar"
+137-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:119:13-59
+138            android:windowSoftInputMode="adjustResize" />
+138-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:120:13-55
+139        <activity
+139-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:122:9-126:66
+140            android:name="com.atolow.miixs.ui.profile.BlockedUsersActivity"
+140-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:123:13-60
+141            android:exported="false"
+141-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:124:13-37
+142            android:parentActivityName="com.atolow.miixs.ui.main.MainActivity"
+142-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:126:13-63
+143            android:theme="@style/Theme.Miixs.NoActionBar" />
+143-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:125:13-59
+144        <activity
+144-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:128:9-133:58
+145            android:name="com.atolow.miixs.ui.profile.ProfileEditActivity"
+145-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:129:13-59
+146            android:exported="false"
+146-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:130:13-37
+147            android:parentActivityName="com.atolow.miixs.ui.main.MainActivity"
+147-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:132:13-63
+148            android:theme="@style/Theme.Miixs"
+148-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:131:13-47
+149            android:windowSoftInputMode="adjustResize" />
+149-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:133:13-55
+150        <activity
+150-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:135:9-139:66
+151            android:name="com.atolow.miixs.ui.profile.UserProfileActivity"
+151-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:136:13-59
+152            android:exported="false"
+152-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:137:13-37
+153            android:parentActivityName="com.atolow.miixs.ui.main.MainActivity"
+153-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:139:13-63
+154            android:theme="@style/Theme.Miixs.NoActionBar" />
+154-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:138:13-59
+155        <activity
+155-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:141:9-153:20
+156            android:name="com.atolow.miixs.ui.payment.PaymentActivity"
+156-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:142:13-55
+157            android:exported="false"
+157-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:143:13-37
+158            android:launchMode="singleTop"
+158-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:146:13-43
+159            android:parentActivityName="com.atolow.miixs.ui.main.MainActivity"
+159-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:145:13-63
+160            android:theme="@style/Theme.Miixs.NoActionBar" >
+160-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:144:13-59
+161            <intent-filter>
+161-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:147:13-152:29
+162                <action android:name="android.intent.action.VIEW" />
+162-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:62:17-69
+162-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:62:25-66
+163
+164                <category android:name="android.intent.category.DEFAULT" />
+164-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:63:17-76
+164-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:63:27-73
+165                <category android:name="android.intent.category.BROWSABLE" />
+165-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:64:17-78
+165-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:64:27-75
+166
+167                <data
+167-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:65:17-101
+168                    android:host="payment"
+168-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:65:46-70
+169                    android:scheme="miixs" />
+169-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:65:23-45
+170            </intent-filter>
+171        </activity>
+172        <activity
+172-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:155:9-159:66
+173            android:name="com.atolow.miixs.ui.payment.PaymentHistoryActivity"
+173-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:156:13-62
+174            android:exported="false"
+174-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:157:13-37
+175            android:parentActivityName="com.atolow.miixs.ui.main.MainActivity"
+175-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:159:13-63
+176            android:theme="@style/Theme.Miixs.NoActionBar" />
+176-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:158:13-59
+177
+178        <service
+178-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:161:9-165:56
+179            android:name="com.atolow.miixs.service.ChatNotificationService"
+179-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:162:13-60
+180            android:enabled="true"
+180-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:163:13-35
+181            android:exported="false"
+181-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:164:13-37
+182            android:foregroundServiceType="dataSync" />
+182-->C:\Users\atolo\Desktop\Important\portfolio\miixs\frontend\app\src\main\AndroidManifest.xml:165:13-53
+183
+184        <meta-data
+184-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:22:9-24:37
+185            android:name="com.google.android.play.billingclient.version"
+185-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:23:13-73
+186            android:value="8.3.0" />
+186-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:24:13-34
+187
+188        <activity
+188-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:26:9-30:75
+189            android:name="com.android.billingclient.api.ProxyBillingActivity"
+189-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:27:13-78
+190            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+190-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:28:13-96
+191            android:exported="false"
+191-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:29:13-37
+192            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+192-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:30:13-72
+193        <activity
+193-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:31:9-35:75
+194            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+194-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:32:13-80
+195            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+195-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:33:13-96
+196            android:exported="false"
+196-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:34:13-37
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+197-->[com.android.billingclient:billing:8.3.0] C:\Users\atolo\.gradle\caches\transforms-4\163ae16a5107775257bdf2f481ba053d\transformed\billing-8.3.0\AndroidManifest.xml:35:13-72
+198        <activity
+198-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\atolo\.gradle\caches\transforms-4\368ea3e2784a91cce83ba083e7dcf960\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+199            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+199-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\atolo\.gradle\caches\transforms-4\368ea3e2784a91cce83ba083e7dcf960\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+200            android:exported="false"
+200-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\atolo\.gradle\caches\transforms-4\368ea3e2784a91cce83ba083e7dcf960\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+201            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+201-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\atolo\.gradle\caches\transforms-4\368ea3e2784a91cce83ba083e7dcf960\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+202
+203        <meta-data
+203-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\atolo\.gradle\caches\transforms-4\77e8774e87754482daa164095da8b14e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:21:9-23:69
+204            android:name="com.google.android.gms.version"
+204-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\atolo\.gradle\caches\transforms-4\77e8774e87754482daa164095da8b14e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:22:13-58
+205            android:value="@integer/google_play_services_version" />
+205-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\atolo\.gradle\caches\transforms-4\77e8774e87754482daa164095da8b14e\transformed\play-services-basement-18.9.0\AndroidManifest.xml:23:13-66
+206
+207        <provider
+207-->[androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+208            android:name="androidx.startup.InitializationProvider"
+208-->[androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+209            android:authorities="com.atolow.miixs.androidx-startup"
+209-->[androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+210            android:exported="false" >
+210-->[androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+211            <meta-data
+211-->[androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+212                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+212-->[androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+213                android:value="androidx.startup" />
+213-->[androidx.emoji2:emoji2:1.2.0] C:\Users\atolo\.gradle\caches\transforms-4\c36893eefdb93c1fa60269719cec2401\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+214            <meta-data
+214-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7566e6ced24135f2e0487c4e8d4b4779\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+215                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+215-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7566e6ced24135f2e0487c4e8d4b4779\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+216                android:value="androidx.startup" />
+216-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\atolo\.gradle\caches\transforms-4\7566e6ced24135f2e0487c4e8d4b4779\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+217            <meta-data
+217-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+218                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+218-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+219                android:value="androidx.startup" />
+219-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+220        </provider>
+221
+222        <uses-library
+222-->[androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+223            android:name="androidx.window.extensions"
+223-->[androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+224            android:required="false" />
+224-->[androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+225        <uses-library
+225-->[androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+226            android:name="androidx.window.sidecar"
+226-->[androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+227            android:required="false" />
+227-->[androidx.window:window:1.0.0] C:\Users\atolo\.gradle\caches\transforms-4\f1e9ca354af554151e9488e6cd795fc5\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+228
+229        <receiver
+229-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+230            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+230-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+231            android:directBootAware="false"
+231-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+232            android:enabled="true"
+232-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+233            android:exported="true"
+233-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+234            android:permission="android.permission.DUMP" >
+234-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+235            <intent-filter>
+235-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+236                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+236-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+236-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+237            </intent-filter>
+238            <intent-filter>
+238-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+239                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+239-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+239-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+240            </intent-filter>
+241            <intent-filter>
+241-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+242                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+242-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+242-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+243            </intent-filter>
+244            <intent-filter>
+244-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+245                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+245-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+245-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\atolo\.gradle\caches\transforms-4\2151c52dcecf3e46d2982b4a18f9bf60\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+246            </intent-filter>
+247        </receiver>
+248
+249        <service
+249-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+250            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+250-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+251            android:exported="false" >
+251-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+252            <meta-data
+252-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+253                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+253-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+254                android:value="cct" />
+254-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\49ddb8cfb32fd3b2979667f54d65a933\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+255        </service>
+256        <service
+256-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+257            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+257-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+258            android:exported="false"
+258-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+259            android:permission="android.permission.BIND_JOB_SERVICE" >
+259-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+260        </service>
+261
+262        <receiver
+262-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+263            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+263-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+264            android:exported="false" />
+264-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\atolo\.gradle\caches\transforms-4\bcd5e41b48f2f179e3d6ae3592db77fb\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+265    </application>
+266
+267</manifest>

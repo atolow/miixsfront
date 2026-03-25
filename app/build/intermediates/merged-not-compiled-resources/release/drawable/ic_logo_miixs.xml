@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Miixs 로고 - 앱 내에서 사용할 수 있는 버전 -->
+    <group>
+        <!-- M 글자 -->
+        <path
+            android:fillColor="#4A90E2"
+            android:pathData="M20,20 L28,20 L28,100 L20,100 Z" />
+        <path
+            android:fillColor="#4A90E2"
+            android:pathData="M28,20 L48,60 L48,20 L56,20 L56,100 L48,100 L48,68 L28,100 L20,100 L20,20 Z" />
+        <path
+            android:fillColor="#4A90E2"
+            android:pathData="M56,20 L64,20 L64,100 L56,100 Z" />
+        
+        <!-- X 스타일 장식 -->
+        <path
+            android:fillColor="#6BA3E8"
+            android:fillAlpha="0.8"
+            android:pathData="M72,20 L80,20 L92,36 L92,20 L100,20 L100,60 L92,48 L80,72 L72,72 L84,48 L84,36 Z" />
+        <path
+            android:fillColor="#6BA3E8"
+            android:fillAlpha="0.8"
+            android:pathData="M100,20 L108,20 L108,72 L100,72 L100,48 L88,72 L80,72 L92,48 L92,36 L80,20 Z" />
+    </group>
+</vector>
+
