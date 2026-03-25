@@ -26,6 +26,3 @@ app/keystore.properties
 # Release output
 app/release/
 
-# Documentation notes (not needed in repo)
-*.md
-
