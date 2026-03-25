@@ -267,4 +267,4 @@ app/src/main/java/com/atolow/miixs/
 
 This project is private and proprietary. All rights reserved.
 
-Copyright © 2024 Miixs. Unauthorized copying, distribution, or modification is strictly prohibited.
+Copyright © 2026 Miixs. Unauthorized copying, distribution, or modification is strictly prohibited.
